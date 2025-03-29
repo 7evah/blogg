@@ -1,6 +1,6 @@
 {
+  "name": "blogg",
   "homepage": "https://7evah.github.io/blogg",
-  "name": "blog-",
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
