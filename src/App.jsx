@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Content from "./components/Content"
+import Footer from "./components/Footer"
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="flex min-h-screen flex-col">
       {/* Header */}
       <header className="flex items-center justify-between bg-blue-600 p-4 text-white shadow-md">
@@ -87,6 +92,17 @@ function App() {
           </a>
         </div>
       </footer>
+=======
+    <div className="min-h-screen flex flex-col">
+    
+      <Header/>
+      
+
+      <Hero/>
+      <Content/>
+      <Footer/>
+
+>>>>>>> 40869aad9073959d4c988519a09b2f3732182ad0
     </div>
   );
 }
