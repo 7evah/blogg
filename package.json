@@ -1,10 +1,16 @@
 {
+  "homepage": "https://7evah.github.io/blogg",
   "name": "blog-",
   "version": "0.0.0",
   "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -12,6 +18,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^6.3.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.5",
     "vitawind": "^2.0.0",
