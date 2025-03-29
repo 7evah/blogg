@@ -2,6 +2,7 @@
   "name": "blogg",
   "homepage": "https://7evah.github.io/blogg",
   "version": "0.0.0",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
