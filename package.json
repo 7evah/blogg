@@ -3,9 +3,6 @@
   "homepage": "https://7evah.github.io/blogg",
   "version": "0.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -13,15 +10,15 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^1.0.7",
+    "@vitejs/plugin-react": "^4.0.0",
     "gh-pages": "^6.3.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.5",
     "vitawind": "^2.0.0",
-    "vite": "^2.7.2"
+    "vite": "^5.0.0"
   }
 }
